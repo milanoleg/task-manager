@@ -16,8 +16,8 @@ const auth = async (req, res, next) => {
     req.user = user;
     req.token = token;
     next();
-  } catch (e) {
-    return res.status(500).send({ error: 'Internal server error' });
+  } catch (error) {
+    return res.status(500).send({ error });
   }
 };
 

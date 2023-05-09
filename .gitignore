@@ -21,3 +21,4 @@ dist
 
 # JetBrains
 .idea/**/**
+/MONGODB-X509.pem
