@@ -1,2 +1,2 @@
 # task-manager
-Node.js / MongoDB / Mongoose service
+Node.js (Express.js) / MongoDB / Mongoose service
