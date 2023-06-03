@@ -59,7 +59,7 @@ const schema = new Schema({
     }
   },
   age: {
-    type: String,
+    type: Number,
   },
   password: {
     type: String,
